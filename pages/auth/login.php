@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
         <div class="col-sm-6 pt-4">
             <h2>Login form</h2>
-            <form id="loginForm">
+            <form id="loginForm" method="POST" action="submit-login">
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
@@ -20,7 +20,6 @@
 
                 <button type="button" class="btn btn-primary" onclick="validateAndSubmit()">Submit</button>
                 <a href="register" class="btn btn-dark">Register</a>
-				
             </form>
         </div>
     </div>

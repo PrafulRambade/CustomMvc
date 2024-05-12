@@ -1,10 +1,10 @@
 <?php
-// header("Content-Type: text/html; charset=utf-8");
-// header("X-Content-Type-Options: nosniff");
-// header("X-Frame-Options: DENY");
-// header("Referrer-Policy: no-referrer-when-downgrade");
-// header("Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; microphone 'none'; payment 'none';");
-// header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
+header("Content-Type: text/html; charset=utf-8");
+header("X-Content-Type-Options: nosniff");
+header("X-Frame-Options: DENY");
+header("Referrer-Policy: no-referrer-when-downgrade");
+header("Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; microphone 'none'; payment 'none';");
+header("Strict-Transport-Security: max-age=31536000; includeSubDomains; preload");
 // header("Public-Key-Pins: pin-sha256=\"BASE64_HASH\"; pin-sha256=\"BACKUP_BASE64_HASH\"; max-age=5184000; includeSubDomains; report-uri=\"https://example.com/hpkp-report\"");
 
 
