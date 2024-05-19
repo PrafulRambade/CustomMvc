@@ -21,3 +21,6 @@ Route::get('/product_edit/{id}','DashboardController','test',[Auth::class]);
 Route::get('/product_edit/{id}/{p_name}','DashboardController','test',[Auth::class]);
 
 Route::get('/','HomeController','index');
+
+Route::get('/property-type', 'PropertyTypeController', 'index', [Auth::class]);
+Route::post('/get-propertytype-details', 'PropertyTypeController', 'getPropertyTypeDetails', [Auth::class]);
